@@ -290,3 +290,20 @@ main {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 0.5px solid #333;
+}
+
+.footer .social-media {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
