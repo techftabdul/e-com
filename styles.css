@@ -305,5 +305,14 @@ main {
   display: flex;
   gap: 1rem;
   font-size: 1.5rem;
+}
+
+.footer .social-media a {
   color: #333;
+  text-decoration: none;
+}
+
+.footer .social-media a:hover {
+  color: #0974f1;
+  transition: all 0.3s ease-in-out;
 }
