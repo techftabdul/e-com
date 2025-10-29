@@ -253,6 +253,15 @@ main {
   text-align: center;
 }
 
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
 .newsletter h2 {
   font-size: 1.5rem;
   font-weight: 600;
